@@ -1,0 +1,10 @@
+[user]
+	name = Bulelani Botman
+	email = botmanbulelani@gmail.com
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[core]
+	editor = vim --nofork
+	autocrlf = input
