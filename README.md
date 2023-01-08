@@ -1,2 +1,2 @@
 # dotfiles
-My personal dotfiles for the Unix OS
+This is a repository that consist of my personal configurations for Neovim, Vim & Tmux.
