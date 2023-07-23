@@ -2,13 +2,13 @@
 This is a repository that consist of my personal configurations for Neovim, Vim & Tmux.
 
 ## Installation
-On your Unix OS, you can use git to download / install the repository & use curl to download each individual file within this repository. When using git, it's recommended you use a Personal Access Token to clone the repository.
+On your Linux/GNU OS, you can use git to download the repository or use curl to download each individual file within this repository.
 ```bash
-git clone https://github.com/blkniga/dotfiles ~/.dotfiles
+git clone https://github.com/inalelub/dotfiles ~/.dotfiles
 ```
 
 ## Usage
-To actually use these dotfiles use can either copy them & place them in your user directory / root directory which is located at `~/`. It is best to symlink each file & we will do it manually. You can follow this method to do so.
+To actually use these dotfiles it is best to symlink each file manually. You can follow this method to do so.
 ```bash
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
