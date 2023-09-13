@@ -1,10 +1,10 @@
 [user]
 	name = Bulelani Botman
-	email = botmanbulelani@gmail.com
+	email = 69175349+inalelub@users.noreply.github.com
 [color]
 	ui = auto
 [init]
 	defaultBranch = main
 [core]
-	editor = vim --nofork
+	editor = code --wait
 	autocrlf = input
