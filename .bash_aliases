@@ -3,12 +3,12 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-# Directory List
+#   Directory List
 alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
 
-#	Git Commands
+#   Git Commands
 alias g="git"
 alias ga="git add"
 alias gc="git commit"
@@ -17,7 +17,7 @@ alias gs="git status"
 alias gr="git remote"
 alias gl="git log"
 
-# NPM
+#   NPM
 alias ni="npm install"
 alias nu="npm uninstall"
 alias nri="rm -rf node_modules && npm install"
@@ -27,10 +27,10 @@ alias mv="mv -i"
 alias cp="cp -i"
 alias rr="rm -rf"
 
-# Misc
+#   Misc
 alias reload="source ~/.bashrc"
 
-# Apps
+#   Apps
 alias fp="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
 alias vim="nvim"
 alias cat="batcat"
