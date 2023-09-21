@@ -28,7 +28,7 @@ unlink ~/.vimrc
 ```
 
 ## Nvim
-For any Neovim config, I will be using [NvChad](https://nvchad.com) or any other seamless config in the future.
+For any Neovim config, I will be using [NvChad](https://nvchad.com), [LunarVim](https://www.lunarvim.org), [LazyVim](https://www.lazyvim.org), [AstroNvim](https://www.astronvim.com) or any other seamless config in the future.
 
 ## Acknowledgement
 This dotfiles repository was made possible by a [guide](https://dotfiles.github.io/) GitHub made.
