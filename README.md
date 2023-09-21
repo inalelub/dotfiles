@@ -30,5 +30,9 @@ unlink ~/.config/nvim
 ```
 When it comes to the .config directory, it's best to copy the directory from the .dotfiles directory & then create a symlink.
 
+```bash
+cp -R ~/.dotfiles/.config ~/.config
+```
+
 ## Acknowledgement
 This dotfiles repository was made possible by a [guide](https://dotfiles.github.io/) GitHub made.
