@@ -13,6 +13,12 @@ To actually use these dotfiles it is best to symlink each file manually. You can
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
+ln -s ~/.dotfiles/.config/nvim ~/.config/nvim
+```
+To unlink a files & directory 
+```bash
+unlink ~/.vimrc
+unlink ~/.config/nvim
 ```
 
 ## Acknowledgement
