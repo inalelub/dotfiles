@@ -28,7 +28,9 @@ To unlink a file & directory
 unlink ~/.vimrc
 unlink ~/.config/nvim
 ```
-When it comes to the .config directory, it's best to copy the directory from the .dotfiles directory & then create a symlink.
+
+### Nvim
+When it comes to the .config/nvim directory, it's best to copy the directory from the .dotfiles directory to your home .config directory.
 
 ```bash
 cp -R ~/.dotfiles/.config ~/.config
