@@ -39,13 +39,13 @@ local opts = {}
 
 for _, server in pairs(servers) do
 	opts = {
-		on_attach = require("blkniga.lsp.handlers").on_attach,
-		capabilities = require("blkniga.lsp.handlers").capabilities,
+		on_attach = require("inalelub.lsp.handlers").on_attach,
+		capabilities = require("inalelub.lsp.handlers").capabilities,
 	}
 
 	server = vim.split(server, "@")[1]
 
-	local require_ok, conf_opts = pcall(require, "blkniga.lsp.settings." .. server)
+	local require_ok, conf_opts = pcall(require, "inalelub.lsp.settings." .. server)
 	if require_ok then
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	end

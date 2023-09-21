@@ -3,6 +3,6 @@ if not status_ok then
   return
 end
 
-require("blkniga.lsp.mason")
-require("blkniga.lsp.handlers").setup()
-require("blkniga.lsp.null-ls")
+require("inalelub.lsp.mason")
+require("inalelub.lsp.handlers").setup()
+require("inalelub.lsp.null-ls")
