@@ -13,28 +13,22 @@ git clone https://<PAT>@github.com/inalelub/dotfiles ~/.dotfiles
 ```
 
 ## Usage
-To actually use these dotfiles it is best to symlink each file & directory manually. You can follow this method to do so.
+To actually use these dotfiles it is best to symlink each file / directory manually. You can follow this method to do so.
 
 ```bash
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
-ln -s ~/.dotfiles/.config/nvim ~/.config/nvim
 ```
-To unlink a file & directory 
+To unlink a file
 
 ```bash
 unlink ~/.vimrc
-unlink ~/.config/nvim
 ```
 
-### Nvim
-When it comes to the .config/nvim directory, it's best to copy the directory from the .dotfiles directory to your home .config directory.
-
-```bash
-cp -R ~/.dotfiles/.config ~/.config
-```
+## Nvim
+For any Neovim config, I will be using [NcChad](https://nvchad.com) or any other seamless config in the future.
 
 ## Acknowledgement
 This dotfiles repository was made possible by a [guide](https://dotfiles.github.io/) GitHub made.
